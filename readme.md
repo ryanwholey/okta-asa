@@ -1,9 +1,9 @@
 Via Terraform
 1) Create a SAML Okta ASA app, output the metadata URL
 1) Ensure that you, the inital creator, are somehow assigned to the Okta app
-1) Create new team on [scaleft](https://app.scaleft.com/r/select-team) and add the metadata URL, click authenticate
 
 Manually in Okta ASA
+1) Create new team on [scaleft](https://app.scaleft.com/r/select-team) and add the metadata URL, click authenticate
 1) Create an oktasaa service account user "terraform"
 1) Copy secret key and key ID to be used along with your org name as env vars for the provider
 1) Create a group called "terraform" and add terraform to it, grant the "terraform" group admin team roles
